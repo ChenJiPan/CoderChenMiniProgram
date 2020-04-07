@@ -5,7 +5,7 @@
 			"style": {
 				"navigationBarTitleText": "微信",
 				"enablePullDownRefresh":true,
-				"onReachBottomDistance": 100
+				"onReachBottomDistance": 50
 			}
 		},{
 			"path": "pages/address/address",
