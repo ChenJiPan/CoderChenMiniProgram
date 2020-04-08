@@ -1,6 +1,12 @@
 {
 	"pages": [
 		{
+			"path": "pages/login/Login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
 			"path": "pages/message/message",
 			"style": {
 				"navigationBarTitleText": "微信",
@@ -22,6 +28,9 @@
 			"style": {
 				"navigationBarTitleText": "我"
 			}
+		},
+		{
+			"path": "pages/address/AddressDetails"
 		}
 	],
 	"globalStyle": {//全局配置

@@ -1,0 +1,19 @@
+
+.content {
+	display: block;
+	/* background-color: #007AFF; */
+	/* display: flex; */
+	/* position: absolute; */
+}
+.messageImage{
+	padding: 20rpx 20rpx 0rpx 20rpx;
+	width: 120rpx;
+	height: 120rpx;
+}
+.messageName{
+	/* display: block; */
+}
+.meesageContent{
+	/* display: block; */
+}
+

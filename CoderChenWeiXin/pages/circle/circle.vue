@@ -1,7 +1,11 @@
 <template>
 	<view class="box">
 		<text @click="ppppppp">{{title}}</text>
-		克拉克森的历史
+		<button @click="ppppppp">跳转</button>
+		<navigator url="../address/AddressDetails" >跳转咯</navigator>
+		
+		
+		
 	</view>
 </template>
 
@@ -14,24 +18,11 @@
 		},
 		methods:{
 			ppppppp(){
-				this.title = "李四"
+				uni.navigateTo({
+					url:"../address/AddressDetails"
+				})
 			}
-		},
-		onLoad() {
-			console.log("视图创建完成")
-		},
-		onShow() {
-			console.log("视图出现")
-		},
-		onHide() {
-			console.log("视图消失")
-		},
-		mounted() {
-			console.log("更好地哈四大皆空");
-		},
-		
-		
-		
+		}
 	}
 </script>
 

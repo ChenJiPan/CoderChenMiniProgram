@@ -1,0 +1,1 @@
+<view class="box"><text data-event-opts="{{[['tap',[['ppppppp',['$event']]]]]}}" bindtap="__e">{{title}}</text><button data-event-opts="{{[['tap',[['ppppppp',['$event']]]]]}}" bindtap="__e">跳转</button></view>

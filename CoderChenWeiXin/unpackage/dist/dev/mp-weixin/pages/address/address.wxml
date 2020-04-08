@@ -1,0 +1,1 @@
+<view><button data-event-opts="{{[['tap',[['updateImage',['$event']]]]]}}" bindtap="__e">上传</button><block wx:for="{{imageArr}}" wx:for-item="value" wx:for-index="index" wx:key="index"><view><image src="{{value}}" mode="aspectFill"></image></view></block></view>

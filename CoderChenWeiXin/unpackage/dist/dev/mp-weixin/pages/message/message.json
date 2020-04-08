@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "微信",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 100,
+  "usingComponents": {}
+}

@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/message/message",
+    "pages/address/address",
+    "pages/circle/circle",
+    "pages/mine/mine"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#707070",
+    "selectedColor": "#1afa29",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "height": "50px",
+    "fontSize": "14px",
+    "iconWidth": "30px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/message/message",
+        "text": "微信",
+        "iconPath": "static/tabBar/message.png",
+        "selectedIconPath": "static/tabBar/message_s.png"
+      },
+      {
+        "pagePath": "pages/address/address",
+        "text": "通讯录",
+        "iconPath": "static/tabBar/address.png",
+        "selectedIconPath": "static/tabBar/address_s.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "发现",
+        "iconPath": "static/tabBar/circle.png",
+        "selectedIconPath": "static/tabBar/circle_s.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我",
+        "iconPath": "static/tabBar/mine.png",
+        "selectedIconPath": "static/tabBar/mine_s.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
