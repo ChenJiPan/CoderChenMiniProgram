@@ -2,6 +2,8 @@
 	<view>
 		<button @click="updateImage">上传</button>
 		
+		<button @click="postData">传值</button>
+		
 		<view v-for="(value,index) in imageArr" :key="index"> 
 			<image :src="value" mode="aspectFill" @click="previewImg(index)"></image>
 		</view>
@@ -35,6 +37,9 @@
 					current:index,
 					urls:this.imageArr
 				})
+			},
+			postData(){
+				uni.$emit("addData","张三");
 			}
 		}
 	}

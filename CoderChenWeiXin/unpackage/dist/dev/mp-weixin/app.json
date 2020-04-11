@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/login/Login",
     "pages/message/message",
     "pages/address/address",
     "pages/circle/circle",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/address/AddressDetails"
   ],
   "subPackages": [],
   "window": {
@@ -48,5 +50,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap26.json"
 }

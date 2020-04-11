@@ -1,0 +1,1 @@
+<view><navigator url="../message/message" open-type="switchTab">跳转到信息页</navigator><button data-event-opts="{{[['tap',[['getLocationClick',['$event']]]]]}}" bindtap="__e">获取当前位置</button></view>
