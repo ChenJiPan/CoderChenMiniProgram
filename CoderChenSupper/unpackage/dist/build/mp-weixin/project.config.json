@@ -9,7 +9,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.9.2",
 	"appid": "wx5ed2834a4c630599",
-	"projectname": "PangCoderUNIAPP",
+	"projectname": "CoderChenSupper",
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"condition": {
@@ -26,19 +26,8 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"name": "pangzai",
-					"id": 0,
-					"pathName": "pages/address/AddressDetails"
-				},
-				{
-					"name": "zhangsan",
-					"id": 1,
-					"pathName": "pages/circle/circle"
-				}
-			]
+			"current": -1,
+			"list": []
 		}
 	}
 }

@@ -1,0 +1,21 @@
+
+.mineContent {
+	margin: 0 auto;
+	width: 100%;
+	padding: 10px;
+	line-height: 30px;
+}
+.mapContent{
+	margin-top: 10px;
+	line-height: 30px;
+}
+.mapContent ._p{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.mapContent map{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+}
+

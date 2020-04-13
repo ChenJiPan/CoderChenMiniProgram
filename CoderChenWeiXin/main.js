@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import App from './App'
+import {httpRequest} from "./utility/httpApi.js"
+
+Vue.prototype.$httpRequest = httpRequest
 
 Vue.config.productionTip = false
+
 
 App.mpType = 'app'
 

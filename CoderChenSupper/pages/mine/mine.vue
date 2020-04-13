@@ -1,14 +1,13 @@
 <template>
 	<view>
 
-		<view class="mineContent">
-			<p>联系我们：188888888888</p>
-			<p>外卖小哥：19999999999</p>
+		<view class="mineContent" >
+			<view @click="callPhone('18876973191')">联系我们：18876973191（点击拨打）</view>
+			<view @click="callPhone('18876973191')">外卖小哥：18876973191（点击拨打）</view>
 		</view>
 		<view class="mapContent">
 			<p>夜宵店地址：黄流镇邵逸夫中学100米处</p>
-			<map :latitude="latitude" :longitude="longitude" :markers="covers">
-			</map>
+			<map :latitude="latitude" :longitude="longitude" :markers="covers"></map>
 		</view>
 	</view>
 </template>
@@ -30,6 +29,14 @@
 					"height":30
 				}]
 			}
+		},
+		methods:{
+			callPhone(num){
+				console.log(num)
+				uni.makePhoneCall({
+					phoneNumber:num
+				})
+			}
 		}
 	}
 </script>
@@ -39,8 +46,7 @@
 		margin: 0 auto;
 		width: 100%;
 		padding: 10px;
-		background-color: #C0C0C0;
-		line-height: 25px;
+		line-height: 30px;
 	}
 	.mapContent{
 		margin-top: 10px;
@@ -51,7 +57,8 @@
 		padding-bottom: 10px;
 	}
 	.mapContent map{
+		position: fixed;
 		width: 100%;
-		height: 300px;
+		height: 100%;
 	}
 </style>
