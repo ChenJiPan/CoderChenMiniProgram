@@ -6,7 +6,7 @@
 			<p>外卖小哥：19999999999</p>
 		</view>
 		<view class="mapContent">
-			<p>夜宵店地址：</p>
+			<p>夜宵店地址：黄流镇邵逸夫中学100米处</p>
 			<map :latitude="latitude" :longitude="longitude" :markers="covers">
 			</map>
 		</view>
@@ -45,6 +45,10 @@
 	.mapContent{
 		margin-top: 10px;
 		line-height: 30px;
+	}
+	.mapContent p{
+		padding-left: 10px;
+		padding-bottom: 10px;
 	}
 	.mapContent map{
 		width: 100%;
