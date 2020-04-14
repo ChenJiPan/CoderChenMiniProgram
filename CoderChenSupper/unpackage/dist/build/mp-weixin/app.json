@@ -1,7 +1,8 @@
 {
   "pages": [
     "pages/menus/menus",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/menus/menuDetails"
   ],
   "subPackages": [],
   "window": {

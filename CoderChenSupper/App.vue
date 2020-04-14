@@ -14,4 +14,8 @@
 
 <style>
 	/*每个页面公共css */
+	.pages{
+		background-color: #F1F1F1;
+	}
+	
 </style>

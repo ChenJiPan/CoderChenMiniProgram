@@ -1,0 +1,1 @@
+<view><image class="menuDetailsImg" src="{{model.srcImg}}" mode="aspectFill"></image><text class="menuDetailsText">{{"名称："+model.name}}</text><text class="menuDetailsText">{{"分量："+model.amount}}</text><text class="menuDetailsText">{{"主料："+model.material}}</text></view>

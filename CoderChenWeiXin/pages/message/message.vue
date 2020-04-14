@@ -1,5 +1,5 @@
 <template>
-	<view>
+	<view style="overflow: hidden;">
 		<scroll-view :scroll-top="1" :scroll-y="true">
 			<view v-for="(value,index) in messageList" :key="index" class="content">
 				<image src="../../static/message.png" mode="aspectFill" class="messageImage"></image>

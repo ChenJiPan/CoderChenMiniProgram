@@ -1,7 +1,6 @@
 <template>
-	<view>
+	<view class="addressDetailsBox">
 		<navigator url="../message/message" open-type="switchTab">跳转到信息页</navigator>
-		
 		
 		
 		
@@ -20,5 +19,8 @@
 </script>
 
 <style>
-	
+	.addressDetailsBox{
+		display: flex;
+		align-items: center;
+	}
 </style>

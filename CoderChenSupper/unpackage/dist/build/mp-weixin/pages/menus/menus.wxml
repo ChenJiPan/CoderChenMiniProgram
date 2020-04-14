@@ -1,1 +1,1 @@
-<view class="_div"></view>
+<view class="pages"><block wx:for="{{menuArr}}" wx:for-item="item" wx:for-index="index" wx:key="index"><menu-cell vue-id="{{'cb278154-1-'+index}}" menuModel="{{item}}" bind:__l="__l"></menu-cell></block></view>

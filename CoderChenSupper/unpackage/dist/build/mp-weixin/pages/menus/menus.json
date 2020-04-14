@@ -1,4 +1,6 @@
 {
   "navigationBarTitleText": "菜单",
-  "usingComponents": {}
+  "usingComponents": {
+    "menu-cell": "/components/menuCell"
+  }
 }
